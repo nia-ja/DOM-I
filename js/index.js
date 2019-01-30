@@ -77,6 +77,10 @@ p[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus 
 p[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 p[3].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
 p[4].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+p[5].textContent = '123 Way 456 Street Somewhere, USA'; // contact > address
+p[6].textContent = '1 (888) 888-8888'; // contact > phone
+p[7].textContent = 'sales@greatidea.io'; // contact > email
+p[8].textContent = 'Copyright Great Idea! 2018'; //footer > copyright
 
 const middleImage = document.querySelector('#middle-img');
 middleImage.src = 'img/mid-page-accent.jpg';
