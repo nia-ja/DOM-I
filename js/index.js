@@ -60,10 +60,16 @@ logo.src = "img/logo.png";
 const ctaH1 = document.querySelector('.cta-text > h1');
 ctaH1.textContent = 'DOM Is Awesome';
 
-
 // cta > button
 const ctaButton = document.querySelector('.cta-text > button');
 ctaButton.textContent = 'Get Started';
+// ctaButton.addEventListener('click', () => alert('Thanks!'));
+ctaButton.onclick = function() {
+  alert('Thank you');
+  ctaButton.style.backgroundColor = "red",
+  ctaButton.style.color = "blue",
+  ctaButton.textContent = "Did it!"
+};
 
 
 // cta > img-src
@@ -110,6 +116,7 @@ lastItem.href = '#';
 lastItem.textContent = 'Last Item';
 navBar.appendChild(lastItem);
 lastItem.style.color = "green";
+lastItem.style.display = "none";
 
 // utilize .prepend()
 let firstItem = document.createElement('a');
@@ -117,3 +124,4 @@ firstItem.href = '#';
 firstItem.textContent = "First Item";
 navBar.prepend(firstItem);
 firstItem.style.color = "green";
+firstItem.style.display = "none";
