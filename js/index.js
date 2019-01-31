@@ -125,3 +125,6 @@ firstItem.textContent = "First Item";
 navBar.prepend(firstItem);
 firstItem.style.color = "green";
 firstItem.style.display = "none";
+
+
+navItem[0].textContent = '0';
